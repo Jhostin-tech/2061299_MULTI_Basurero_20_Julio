@@ -11,7 +11,7 @@ div.img{align: left;}
     position: fixed;
     top: 0;
     width: 100%;}
-    button
+
     {padding:14px 40px;float:right;}
     #queja{background:rgba(30, 238, 30, 0.733); margin-top:300px}
     #correo{text-align: right;}
@@ -22,3 +22,137 @@ div.img{align: left;}
     #azul{float:right;}
     #rosa{float:right;}
 	div.columna1{background-color: limegreen; text-align: right;}
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .btnI{
+        display: block;
+        width: 150px;
+        height: 40px;
+        outline: none;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 3px;
+        color: white;
+        cursor: pointer;
+        transition: all .25s;
+        z-index: 1;
+        position: relative;
+    }
+    
+    .btnI:before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 0;
+        left: 0;
+        bottom: 0;
+        background-image: linear-gradient(to right, green, rgb(152, 233, 152));
+        transition: all .25s;
+        z-index: -1;
+    }
+    
+    
+    .btnI:hover{
+        border: 1px solid transparent;
+        color: #fff;
+    }
+    
+    .btnI:hover::before{
+        height: 100%;
+    }
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .btnM{
+        display: block;
+        width: 150px;
+        height: 40px;
+        outline: none;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 3px;
+        color: white;
+        cursor: pointer;
+        transition: all .25s;
+        z-index: 1;
+        position: relative;
+    }
+    
+    .btnM:before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 0;
+        left: 0;
+        bottom: 0;
+        background-image: linear-gradient(to right, green, rgb(152, 233, 152));
+        transition: all .25s;
+        z-index: -1;
+    }
+    
+    
+    .btnM:hover{
+        border: 1px solid transparent;
+        color: #fff;
+    }
+    
+    .btnM:hover::before{
+        height: 100%;
+    }
+ 
+
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .btnB{
+        display: block;
+        width: 200px;
+        height: 40px;
+        outline: none;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 3px;
+        color: white;
+        cursor: pointer;
+        transition: all .25s;
+        z-index: 1;
+        position: relative;
+    }
+    
+    .btnB:before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 0;
+        left: 0;
+        bottom: 0;
+        background-image: linear-gradient(to right, green, rgb(152, 233, 152));
+        transition: all .25s;
+        z-index: -1;
+    }
+    
+    
+    .btnB:hover{
+        border: 1px solid transparent;
+        color: #fff;
+    }
+    
+    .btnB:hover::before{
+        height: 100%;
+    }
